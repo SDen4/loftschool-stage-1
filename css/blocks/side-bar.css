@@ -1,13 +1,10 @@
 .sidebar {
   align-items: flex-start;
-  /*flex: 1 1 170px;*/ /*вместо этого - ширина в %*/
-  /*width: 17.68%;*/
   width: 17%;
 }
 
 .nav__item {
   margin: 0px 0px 30px 20px;
-
 }
 
 .nav__link:before {
@@ -56,7 +53,6 @@
   background-image: url('/img/icons/side-bar-wallet.png');
   width: 18px;
   height: 15px;
-  /*margin-top: -1px;*/
 }
 
 .nav__link_icon_main:hover:before {

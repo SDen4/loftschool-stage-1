@@ -87,8 +87,6 @@ li {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  /*flex: 1 1 881px;*/ /*вместо этого - ширина в %*/
-  /*width: 82.32%;*/
   width: 83%;
   padding-left: 6px;
 }

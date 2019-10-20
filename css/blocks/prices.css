@@ -18,13 +18,14 @@
   margin-right: 24px;
   margin-bottom: 38px;
 }
+
 .prices__item:last-child {
   margin-right: 0;
 }
 
 .prices__image {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 251px;
@@ -34,25 +35,31 @@
   background-size: cover;
   margin-bottom: 25px;
 }
+
 .prices__image_one {
   background-image: url('/img/price-one.jpg');
-  /*background-color: rgba(39, 39, 62, .85);*/
 }
+
 .prices__image_three {
   background-image: url('/img/price-three.jpg');
 }
+
 .prices__image_10-10 {
   background-image: url('/img/price-10-10.jpg');
 }
+
 .prices__image_unlim {
   background-image: url('/img/price-unlimit-for-one.jpg');
 }
+
 .prices__image_allincl {
   background-image: url('/img/price-all-inclusive.jpg');
 }
+
 .prices__image_negot {
   background-image: url('/img/price-negotiations.jpg');
 }
+
 .prices__image-frame {
   display: flex;
   flex-flow: column wrap;
@@ -110,6 +117,7 @@
 .prices__text {
   width: 245px;
 }
+
 .prices__text p {
   margin: 0;
 }
