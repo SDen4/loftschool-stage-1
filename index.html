@@ -14,228 +14,226 @@
 
 <body>
     <div class="wrapper">
-        <div class="wrapper__content">
-            <header class="header">
-                <div class="container header__container">
-                    <a href="/" class="logo__link">
-                        <img src="/img/logo.png" class="logo__pic" alt="logo Coworking">
-                    </a>
-                    <address class="contacts">
-                        <a class="contacts__phone" href="tel:+78000039210">8 (800) 00-392-10</a>
-                        <a class="contacts__shed" href="/">График работы</a>
-                    </address>
-                </div>
-            </header>
-            <div class="banner">
-                <div class="container">
-                    <img src="/img/banner.png" class="banner__pic" alt="banner Coworking">
+        <header class="header">
+            <div class="container header__container">
+                <a href="/" class="logo__link">
+                    <img src="/img/logo.png" class="logo__pic" alt="logo Coworking">
+                </a>
+                <address class="contacts">
+                    <a class="contacts__phone" href="tel:+78000039210">8 (800) 00-392-10</a>
+                    <a class="contacts__shed" href="/">График работы</a>
+                </address>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="container">
+                <img src="/img/banner.png" class="banner__pic" alt="banner Coworking">
+            </div>
+        </div>
+        <main class="main-content main-content__container">
+            <div class="container">
+                <aside class="sidebar">
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item nav__item_active">
+                                <a href="" class="nav__link nav__link_icon_main">ГЛАВНАЯ</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="feedback.html" class="nav__link nav__link_icon_feedback">ОТЗЫВЫ</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="price-list.html" class="nav__link nav__link_icon_prices">ТАРИФЫ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+                <div class="content">
+                    <section class="features">
+                        <h2 class="headline">Особенности</h2>
+                        <ul class="features__list">
+                            <li class="features__item">
+                                <div class="feautures__image feautures__image_flower">
+                                    <img src="./img/features-flower.png" class="features__pic" alt="picture unicum">
+                                </div>
+                                <div class="features__content">
+                                    <h4 class="features__title">УНИКАЛЬНОСТЬ</h4>
+                                    <div class="features__description">
+                                        <div class="features__subtitle">
+                                            <p>Создан для вашего комфортного отдыха</p>
+                                        </div>
+                                        <ul class="features__sublist">
+                                            <li class="features__unit">
+                                                <span class="features__unit_color">Кофе/чай</span>
+                                            </li>
+                                            <li class="features__unit">
+                                                <span class="features__unit_color">Шкаф (5 кг)</span>
+                                            </li>
+                                            <li class="features__unit">
+                                                <span class="features__unit_color">Рабочее место</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="features__item">
+                                <div class="feautures__image">
+                                    <img src="./img/features-star2.png" class="features__pic" alt="picture unicum">
+                                </div>
+                                <div class="features__content">
+                                    <h4 class="features__title">ПРЕМИУМ-КЛАСС</h4>
+                                    <div class="features__description">
+                                        <div class="features__subtitle">
+                                            <p>Для любителей хороших впечатлений</p>
+                                        </div>
+                                        <ul class="features__sublist">
+                                            <li class="features__unit">
+                                                <span class="features__unit_color">Обед+кофе</span>
+                                            </li>
+                                            <li class="features__unit">
+                                                <span class="features__unit_color">Шкаф (10 кг)</span>
+                                            </li>
+                                            <li class="features__unit">
+                                                <span class="features__unit_color">Детское кресло</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="features__item">
+                                <div class="feautures__image feautures__image_palette">
+                                    <img src="./img/features-palette.png" class="features__pic"
+                                        alt="picture unicum">
+                                </div>
+                                <div class="features__content">
+                                    <h4 class="features__title">ЛАКШЕРИ-СТУЛЬЯ</h4>
+                                    <div class="features__description">
+                                        <div class="features__subtitle">
+                                            <p>Всё самое лучшее<br> и незабываемое</p>
+                                        </div>
+                                        <ul class="features__sublist">
+                                            <li class="features__unit">
+                                                <span class="features__unit_color">Джакузи</span>
+                                            </li>
+                                            <li class="features__unit">
+                                                <span class="features__unit_color">Шкаф (15 кг)</span>
+                                            </li>
+                                            <li class="features__unit">
+                                                <span class="features__unit_color">Табуретка</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="news">
+                        <h2 class="headline headline_news">Последние новости</h2>
+                        <ul class="news__list">
+                            <li class="news__item">
+                                <div class="news__photo">
+                                    <img src="./img/news1.jpg" class="news__pic" alt="photo news">
+                                </div>
+                                <div class="news__content">
+                                    <div class="news__data">12.10.2016</div>
+                                    <div class="news__title">Чёрная дыра скидок!</div>
+                                    <div class="news__text">
+                                        <p>Ключевым технологическим партнером GrowUp является дата-центр
+                                            Миран, расположенный всего лишь в 500 метрах от здания, а
+                                            значит, скорость интернета будет стабильной в любое время суток.
+                                            Коворкинг работает в формате 24/7. Используйте шкаф для хранения
+                                            личных вещей.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="news__item">
+                                <div class="news__photo">
+                                    <img src="./img/news2.jpg" class="news__pic" alt="photo news">
+                                </div>
+                                <div class="news__content">
+                                    <div class="news__data">01.02.2016</div>
+                                    <div class="news__title">Заражай друзей, получай призы!</div>
+                                    <div class="news__text">
+                                        <p>Быть частью сообщества сильных, грамотных и увлеченных своим
+                                            делом профессионалов - вдохновляет выходить на новые уровни
+                                            развития.
+                                            <br> Регулярно в коворкинге проводятся лекции, мастер-классы,
+                                            встречи с инвесторами или менторами для резидентов.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="news__item">
+                                <div class="news__photo">
+                                    <img src="./img/news3.jpg" class="news__pic" alt="photo news">
+                                </div>
+                                <div class="news__content">
+                                    <div class="news__data">22.12.2015</div>
+                                    <div class="news__title">Новое рабочее место для бизнесменов</div>
+                                    <div class="news__text">
+                                        <p class="news__text">Для резидентов коворкинга оборудована не
+                                            только рабочая зона, но и зона отдыха. Она включает в себя:
+                                            кухонную зону и зону релакса.<br>Каждый резидент может
+                                            беспрепятственно пользоваться кухонным оборудованием:
+                                            микроволновкой, чайником, кофе машиной, посудой.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="pagination">
+                            <div class="pagination__display">Страница 1 из 7</div>
+                            <div class="pagination__pages">
+                                <ul class="pagination__list">
+                                    <li class="pagination__item pagination__item_prev">
+                                        <div class="pagination__box">
+                                            <a href="/" class="pagination__link pagination__link_prev"></a>
+                                        </div>
+                                    </li>
+                                    <li class="pagination__item pagination__item_chosen">
+                                        <div class="pagination__box">
+                                            <a href="/" class="pagination__link">1</a>
+                                        </div>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <div class="pagination__box">
+                                            <a href="/" class="pagination__link">2</a>
+                                        </div>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <div class="pagination__box">
+                                            <a href="/" class="pagination__link">3</a>
+                                        </div>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <div class="pagination__box">
+                                            <a href="/" class="pagination__link">4</a>
+                                        </div>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <div class="pagination__box">
+                                            <a href="/" class="pagination__link">5</a>
+                                        </div>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <div class="pagination__box">
+                                            <a href="/" class="pagination__link">6</a>
+                                        </div>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <div class="pagination__box">
+                                            <a href="/" class="pagination__link">7</a>
+                                        </div>
+                                    </li>
+                                    <li class="pagination__item pagination__item_next">
+                                        <div class="pagination__box">
+                                            <a href="/" class="pagination__link pagination__link_next"></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
-            <main class="main-content main-content__container">
-                <div class="container">
-                    <aside class="sidebar">
-                        <nav class="nav">
-                            <ul class="nav__list">
-                                <li class="nav__item nav__item_active">
-                                    <a href="" class="nav__link nav__link_icon_main">ГЛАВНАЯ</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a href="feedback.html" class="nav__link nav__link_icon_feedback">ОТЗЫВЫ</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a href="price-list.html" class="nav__link nav__link_icon_prices">ТАРИФЫ</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </aside>
-                    <div class="content">
-                        <section class="features">
-                            <h2 class="headline">Особенности</h2>
-                            <ul class="features__list">
-                                <li class="features__item">
-                                    <div class="feautures__image feautures__image_flower">
-                                        <img src="./img/features-flower.png" class="features__pic" alt="picture unicum">
-                                    </div>
-                                    <div class="features__content">
-                                        <h4 class="features__title">УНИКАЛЬНОСТЬ</h4>
-                                        <div class="features__description">
-                                            <div class="features__subtitle">
-                                                <p>Создан для вашего комфортного отдыха</p>
-                                            </div>
-                                            <ul class="features__sublist">
-                                                <li class="features__unit">
-                                                    <span class="features__unit_color">Кофе/чай</span>
-                                                </li>
-                                                <li class="features__unit">
-                                                    <span class="features__unit_color">Шкаф (5 кг)</span>
-                                                </li>
-                                                <li class="features__unit">
-                                                    <span class="features__unit_color">Рабочее место</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="features__item">
-                                    <div class="feautures__image">
-                                        <img src="./img/features-star2.png" class="features__pic" alt="picture unicum">
-                                    </div>
-                                    <div class="features__content">
-                                        <h4 class="features__title">ПРЕМИУМ-КЛАСС</h4>
-                                        <div class="features__description">
-                                            <div class="features__subtitle">
-                                                <p>Для любителей хороших впечатлений</p>
-                                            </div>
-                                            <ul class="features__sublist">
-                                                <li class="features__unit">
-                                                    <span class="features__unit_color">Обед+кофе</span>
-                                                </li>
-                                                <li class="features__unit">
-                                                    <span class="features__unit_color">Шкаф (10 кг)</span>
-                                                </li>
-                                                <li class="features__unit">
-                                                    <span class="features__unit_color">Детское кресло</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="features__item">
-                                    <div class="feautures__image feautures__image_palette">
-                                        <img src="./img/features-palette.png" class="features__pic"
-                                            alt="picture unicum">
-                                    </div>
-                                    <div class="features__content">
-                                        <h4 class="features__title">ЛАКШЕРИ-СТУЛЬЯ</h4>
-                                        <div class="features__description">
-                                            <div class="features__subtitle">
-                                                <p>Всё самое лучшее<br> и незабываемое</p>
-                                            </div>
-                                            <ul class="features__sublist">
-                                                <li class="features__unit">
-                                                    <span class="features__unit_color">Джакузи</span>
-                                                </li>
-                                                <li class="features__unit">
-                                                    <span class="features__unit_color">Шкаф (15 кг)</span>
-                                                </li>
-                                                <li class="features__unit">
-                                                    <span class="features__unit_color">Табуретка</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </section>
-                        <section class="news">
-                            <h2 class="headline headline_news">Последние новости</h2>
-                            <ul class="news__list">
-                                <li class="news__item">
-                                    <div class="news__photo">
-                                        <img src="./img/news1.jpg" class="news__pic" alt="photo news">
-                                    </div>
-                                    <div class="news__content">
-                                        <div class="news__data">12.10.2016</div>
-                                        <div class="news__title">Чёрная дыра скидок!</div>
-                                        <div class="news__text">
-                                            <p>Ключевым технологическим партнером GrowUp является дата-центр
-                                                Миран, расположенный всего лишь в 500 метрах от здания, а
-                                                значит, скорость интернета будет стабильной в любое время суток.
-                                                Коворкинг работает в формате 24/7. Используйте шкаф для хранения
-                                                личных вещей.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="news__item">
-                                    <div class="news__photo">
-                                        <img src="./img/news2.jpg" class="news__pic" alt="photo news">
-                                    </div>
-                                    <div class="news__content">
-                                        <div class="news__data">01.02.2016</div>
-                                        <div class="news__title">Заражай друзей, получай призы!</div>
-                                        <div class="news__text">
-                                            <p>Быть частью сообщества сильных, грамотных и увлеченных своим
-                                                делом профессионалов - вдохновляет выходить на новые уровни
-                                                развития.
-                                                <br> Регулярно в коворкинге проводятся лекции, мастер-классы,
-                                                встречи с инвесторами или менторами для резидентов.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="news__item">
-                                    <div class="news__photo">
-                                        <img src="./img/news3.jpg" class="news__pic" alt="photo news">
-                                    </div>
-                                    <div class="news__content">
-                                        <div class="news__data">22.12.2015</div>
-                                        <div class="news__title">Новое рабочее место для бизнесменов</div>
-                                        <div class="news__text">
-                                            <p class="news__text">Для резидентов коворкинга оборудована не
-                                                только рабочая зона, но и зона отдыха. Она включает в себя:
-                                                кухонную зону и зону релакса.<br>Каждый резидент может
-                                                беспрепятственно пользоваться кухонным оборудованием:
-                                                микроволновкой, чайником, кофе машиной, посудой.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="pagination">
-                                <div class="pagination__display">Страница 1 из 7</div>
-                                <div class="pagination__pages">
-                                    <ul class="pagination__list">
-                                        <li class="pagination__item pagination__item_prev">
-                                            <div class="pagination__box">
-                                                <a href="/" class="pagination__link pagination__link_prev"></a>
-                                            </div>
-                                        </li>
-                                        <li class="pagination__item pagination__item_chosen">
-                                            <div class="pagination__box">
-                                                <a href="/" class="pagination__link">1</a>
-                                            </div>
-                                        </li>
-                                        <li class="pagination__item">
-                                            <div class="pagination__box">
-                                                <a href="/" class="pagination__link">2</a>
-                                            </div>
-                                        </li>
-                                        <li class="pagination__item">
-                                            <div class="pagination__box">
-                                                <a href="/" class="pagination__link">3</a>
-                                            </div>
-                                        </li>
-                                        <li class="pagination__item">
-                                            <div class="pagination__box">
-                                                <a href="/" class="pagination__link">4</a>
-                                            </div>
-                                        </li>
-                                        <li class="pagination__item">
-                                            <div class="pagination__box">
-                                                <a href="/" class="pagination__link">5</a>
-                                            </div>
-                                        </li>
-                                        <li class="pagination__item">
-                                            <div class="pagination__box">
-                                                <a href="/" class="pagination__link">6</a>
-                                            </div>
-                                        </li>
-                                        <li class="pagination__item">
-                                            <div class="pagination__box">
-                                                <a href="/" class="pagination__link">7</a>
-                                            </div>
-                                        </li>
-                                        <li class="pagination__item pagination__item_next">
-                                            <div class="pagination__box">
-                                                <a href="/" class="pagination__link pagination__link_next"></a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </main>
-        </div>
+        </main>
         <footer class="footer">
             <div class="container footer__container">
                 <div class="author">

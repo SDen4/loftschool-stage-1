@@ -18,7 +18,7 @@
   flex-flow: column wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-bottom: 35px;
+  margin-bottom: 42px;
 }
 
 .feedback__allitems {
@@ -89,11 +89,11 @@
   flex-flow: column wrap;
   align-items: flex-start;
   justify-content: center;
-  margin-left: 19px;
+  margin-left: 21px;
 }
 
 .feedback__data {
-  padding: 5px 0px;
+  padding: 4px 0px;
 }
 
 .feedback__username {
