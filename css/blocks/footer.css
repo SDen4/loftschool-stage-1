@@ -66,6 +66,8 @@
 }
 
 .social__item:hover {
+  transition-property: background-color;
+  transition-duration: .5s;
   background-color: #ec1e79;
 }
 

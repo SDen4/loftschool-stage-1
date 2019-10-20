@@ -37,9 +37,9 @@
 }
 
 .prices__image:hover .prices__image-frame {
-  transition-property: opacity;
+  transition-property: background-color;
   transition-duration: .5s;
-  opacity: 0;
+  background-color: rgba(39, 39, 62, 0);
 }
 
 .prices__image_one {

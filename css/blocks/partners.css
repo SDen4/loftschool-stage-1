@@ -24,5 +24,7 @@
   filter: grayscale(100%);
 }
 .partners__item:hover .partners__pic{
+  transition-property: filter;
+  transition-duration: .5s;
   filter: none;
 }

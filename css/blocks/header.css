@@ -39,5 +39,7 @@
 }
 
 .contacts__shed:hover {
+  transition-property: color;
+  transition-duration: .5s;
   color: #769dcd;
 }
