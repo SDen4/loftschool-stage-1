@@ -36,6 +36,12 @@
   margin-bottom: 25px;
 }
 
+.prices__image:hover .prices__image-frame {
+  transition-property: opacity;
+  transition-duration: .5s;
+  opacity: 0;
+}
+
 .prices__image_one {
   background-image: url('/img/price-one.jpg');
 }
