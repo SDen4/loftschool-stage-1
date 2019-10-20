@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #27273e;
+}
+
+.header__container {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #27273e;
+  padding: 13px 20px 10px;
+}
+
+.logo__link {
+  width: 99px;
+}
+
+.contacts {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-end;
+  font-style: normal;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 21px;
+  color: #ffffff;
+  font-family: 'Gotham Pro';
+  font-weight: bold;
+}
+
+.contacts__shed {
+  color: #ec1e79;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.contacts__shed:hover {
+  color: #769dcd;
+}
