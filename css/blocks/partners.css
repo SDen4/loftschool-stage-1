@@ -16,18 +16,13 @@
   justify-content: center;
   margin-bottom: 50px;
   width: 160px;
-  /*margin-right: 100px;*/
 }
 .partners__item:nth-child(3n-1) {
   width: 50%;
 }
-/*
-.partners__item:last-child {
-  margin-right: 139px;
+.partners__pic {
+  filter: grayscale(100%);
 }
-.partners__item:nth-child(2) {
-  margin-right: 117px;
+.partners__item:hover .partners__pic{
+  filter: none;
 }
-.partners__item:nth-child(5) {
-  margin-right: 154px;
-}*/

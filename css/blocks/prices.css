@@ -121,7 +121,3 @@
 .prices__text p {
   margin: 0;
 }
-
-.partners__pic {
-  filter: grayscale(100%);
-}
