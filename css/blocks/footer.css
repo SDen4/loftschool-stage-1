@@ -54,9 +54,15 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 21px;
+  height: 21px;
   border-radius: 50%;
   margin-right: 10px;
   background-color: #d4d4d8;
+  transition-duration: .5s;
+}
+
+.social__item:hover {
+  background-color: #ec1e79;
 }
 
 .social__link {
@@ -65,11 +71,6 @@
   align-items: center;
 }
 
-.social__item:hover {
-  transition-property: background-color;
-  transition-duration: .5s;
-  background-color: #ec1e79;
-}
 
 .social__pic {
   margin-top: 6px;

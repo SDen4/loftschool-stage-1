@@ -1,0 +1,69 @@
+.wrapper__intro {
+    display: flex;
+    background: url('/img/intro.jpg');
+    background-size: cover;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper__image-frame {
+    display: flex;
+    background-color: rgba(236, 30, 121, .15);
+    /*#ec1e79*/
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container__intro {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.logoname {
+    width: 161px; /*24%*/
+    height: 119px; /*24%*/
+    margin-bottom: 28px;
+    animation: logo-animaton 2s infinite;
+}
+
+@keyframes logo-animaton {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.button-enter {
+    width: 183px;
+    height: 45px;
+    border: 3px solid #ec1e79;
+    background-color: transparent;
+    color: #ec1e79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition-duration: .5s;
+}
+
+.button-enter:hover {
+    color: #ffffff;
+    background-color: #ec1e79;
+}

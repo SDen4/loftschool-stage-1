@@ -36,9 +36,11 @@
   margin-bottom: 25px;
 }
 
-.prices__image:hover .prices__image-frame {
-  transition-property: background-color;
+.prices__image .prices__image-frame {
   transition-duration: .5s;
+}
+
+.prices__image:hover .prices__image-frame {
   background-color: rgba(39, 39, 62, 0);
 }
 
