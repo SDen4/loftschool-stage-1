@@ -29,7 +29,7 @@
     width: 161px; /*24%*/
     height: 119px; /*24%*/
     margin-bottom: 28px;
-    animation: logo-animaton 2s infinite;
+    animation: logo-animaton 2s infinite linear;
 }
 
 @keyframes logo-animaton {
