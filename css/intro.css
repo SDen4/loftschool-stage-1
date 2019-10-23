@@ -23,26 +23,73 @@
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+    animation-delay: 2s;
+    animation: logo-animaton 1.2s cubic-bezier(1, 0.01, 0.93, 0.76);
+    animation-fill-mode: both;
 }
 
 .logoname {
-    width: 161px; /*24%*/
-    height: 119px; /*24%*/
+    width: 161px;
+    /*24%*/
+    height: 119px;
+    /*24%*/
     margin-bottom: 28px;
-    animation: logo-animaton 2s infinite linear;
 }
 
 @keyframes logo-animaton {
     0% {
-        transform: scale(1, 1);
+        transform: scale(0, 0);
+        opacity: 0;
     }
 
-    50% {
-        transform: scale(1.1, 1.1);
+    55% {
+        transform: scale(.55, .55) rotate(5deg);
+        opacity: .1;
+    }
+
+    57% {
+        transform: scale(.76, .76) rotate(0deg);
+        opacity: .3;
+    }
+
+    59% {
+        transform: scale(.88, .88) rotate(-5deg);
+        opacity: .6;
+    }
+
+    60% {
+        transform: scale(.94, .94) rotate(-8deg);
+        opacity: .9;
+    }
+
+    62% {
+        transform: scale(.98, .98) rotate(-10deg);
+    }
+
+    64% {
+        transform: scale(1, 1) rotate(-12deg);
+        opacity: 1;
+    }
+
+    66% {
+        transform: scale(1, 1) rotate(-8deg);
+        opacity: 1;
+    }
+
+    70% {
+        transform: scale(1, 1) rotate(-5deg);
+        opacity: 1;
+    }
+
+    80% {
+        transform: scale(1, 1) rotate(3deg);
+        opacity: 1;
     }
 
     100% {
-        transform: scale(1, 1);
+
+        transform: scale(1, 1) rotate(0deg);
+        opacity: 1;
     }
 }
 

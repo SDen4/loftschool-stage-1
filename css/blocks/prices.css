@@ -46,6 +46,8 @@
 
 .prices__image_one {
   background-image: url('/img/price-one.jpg');
+  background-size: 109%;
+  background-position: 50% 70%;
 }
 
 .prices__image_three {

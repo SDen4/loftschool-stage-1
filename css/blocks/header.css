@@ -25,6 +25,20 @@
   font-style: normal;
 }
 
+.contacts__table {
+  position: relative;
+  display: inline-block;
+}
+
+.contacts__table:hover .contacts__shed {
+  color: #769dcd;
+}
+
+.contacts__table:hover .dropdown {
+  right: 2%;
+  opacity: 1;
+}
+
 .contacts__phone {
   text-decoration: none;
   font-size: 21px;
@@ -43,14 +57,15 @@
 .contacts__shed:hover {
   color: #769dcd;
 }
-.contacts__shed:hover + .dropdown{
+
+.contacts__shed:hover+.dropdown {
   right: 2%;
   opacity: 1;
 }
 
 .dropdown {
   position: absolute;
-  top: 90px;
+  top: 50px;
   width: 163px;
   height: 71px;
   border-radius: 3px;
@@ -64,14 +79,25 @@
   right: 9999px;
 }
 
+.dropdown:before {
+  content: "";
+  display: block;
+  height: 40px;
+  left: 0;
+  right: 0;
+  top: -39px;
+  position: absolute;
+}
+
 .dropdown__mask {
   position: absolute;
-  top: -24px;
+  top: -22px;
   left: 125px;
   width: 50px;
   height: 24px;
   overflow: hidden;
 }
+
 .dropdown__mask:after {
   content: "";
   width: 24px;
@@ -79,10 +105,10 @@
   border-radius: 3px;
   transform: rotate(45deg);
   position: absolute;
-  top: 14px;
-  right: 34%;
+  top: 16px;
+  right: 27%;
   background-image: linear-gradient(0deg, #ffffff 0%, #ffffff 100%);
-  box-shadow: 5px 0px 0px rgba(0,0,0,0.2);
+  box-shadow: 5px 0px 0px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
 
@@ -95,6 +121,7 @@
   padding-left: 13px;
   padding-bottom: 10px;
 }
+
 .dropdown__text-bottom {
   font-size: 14px;
   /*line-height: 18px;*/

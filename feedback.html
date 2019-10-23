@@ -21,11 +21,13 @@
                 </a>
                 <address class="contacts">
                     <a class="contacts__phone" href="tel:+78000039210">8 (800) 00-392-10</a>
-                    <a class="contacts__shed" href="/">График работы</a>
-                    <div class="dropdown">
-                        <div class="dropdown__text-top">пн-вс: 09:00-20:00</div>
-                        <div class="dropdown__text-bottom">обед: 14:00-14:30</div>
-                        <div class="dropdown__mask"></div>
+                    <div class="contacts__table">
+                          <a class="contacts__shed" href="/">График работы</a>
+                          <div class="dropdown">
+                              <div class="dropdown__text-top">пн-вс: 09:00-20:00</div>
+                              <div class="dropdown__text-bottom">обед: 14:00-14:30</div>
+                              <div class="dropdown__mask"></div>
+                          </div>
                     </div>
                 </address>
             </div>
@@ -210,35 +212,35 @@
                     <h2 class="headline headline__send-feedback">Оставить отзыв</h2>
                     <form action="/" class="form">
                         <div class="form__content">
-                            <lable class="form__data">
+                            <label class="form__data">
                                 <div class="form__subtitle">Ваше имя</div>
                                 <input class="form__input" type="text" name="fist-name" placeholder="Андрей">
-                            </lable>
-                            <lable class="form__data">
+                            </label>
+                            <label class="form__data">
                                 <div class="form__subtitle">Ссылка на профиль VK</div>
                                 <input class="form__input" type="text" name="social"
                                     placeholder="vk.com/example">
-                            </lable>
+                            </label>
                         </div>
                         <div class="form__content">
-                            <lable class="form__data form__text">
+                            <label class="form__data form__text">
                                 <div class="form__subtitle">Текст отзыва</div>
                                 <textarea class="form__input form__input_textarea" rows="5" cols="45" name="form__text"
                                     placeholder="Мне понравилось"></textarea>
-                            </lable>
+                            </label>
                         </div>
                         <div class="form__content form__submit-buttons">
                             <div class="form__photo-radio">
                                 <div class="form__subtitle">Отображать фото в отзыве?</div>
                                 <div class="form__radio">
-                                    <lable class="form__photo">
-                                        <input name="form__photo" type="radio">
+                                    <label class="form__photo">
+                                        <input class="form__radio-input" name="form__photo" type="radio">
                                         <span class="form__answer">Да</span>
-                                    </lable>
-                                    <lable class="form__photo">
-                                        <input name="form__photo" type="radio">
+                                   </label>
+                                    <label class="form__photo">
+                                        <input class="form__radio-input" name="form__photo" type="radio">
                                         <span class="form__answer">Нет</span>
-                                    </lable>
+                                    </label>
                                 </div>
                             </div>
                             <div class="form__submit">
