@@ -45,29 +45,29 @@
 }
 
 .prices__image_one {
-  background-image: url('/img/price-one.jpg');
+  background-image: url('../../img/price-one.jpg');
   background-size: 109%;
   background-position: 50% 70%;
 }
 
 .prices__image_three {
-  background-image: url('/img/price-three.jpg');
+  background-image: url('../../img/price-three.jpg');
 }
 
 .prices__image_10-10 {
-  background-image: url('/img/price-10-10.jpg');
+  background-image: url('../../img/price-10-10.jpg');
 }
 
 .prices__image_unlim {
-  background-image: url('/img/price-unlimit-for-one.jpg');
+  background-image: url('../../img/price-unlimit-for-one.jpg');
 }
 
 .prices__image_allincl {
-  background-image: url('/img/price-all-inclusive.jpg');
+  background-image: url('../../img/price-all-inclusive.jpg');
 }
 
 .prices__image_negot {
-  background-image: url('/img/price-negotiations.jpg');
+  background-image: url('../../img/price-negotiations.jpg');
 }
 
 .prices__image-frame {

@@ -3,7 +3,7 @@
   background-color: #27273d;
   margin-bottom: 57px;
   /*Добавить фоновую картинку*/
-  background: url('/img/pattern!.png') #27273d center repeat;
+  background: url('../../img/pattern!.png') #27273d center repeat;
 }
 
 .banner-discoun__container {

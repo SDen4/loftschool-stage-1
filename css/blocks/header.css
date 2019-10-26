@@ -114,7 +114,6 @@
 
 .dropdown__text-top {
   font-size: 14px;
-  /*line-height: 17px;*/
   color: #ec1e79;
   font-family: "Gotham Pro";
   font-weight: bold;
@@ -124,7 +123,6 @@
 
 .dropdown__text-bottom {
   font-size: 14px;
-  /*line-height: 18px;*/
   color: #221f1f;
   font-family: "Gotham Pro";
   font-weight: 300;

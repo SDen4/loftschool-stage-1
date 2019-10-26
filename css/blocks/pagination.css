@@ -1,6 +1,5 @@
 .pagination {
   font-size: 12px;
-  /*margin: 45px auto 57px;*/
   display: inline-flex;
   flex-wrap: wrap;
   align-self: center;
@@ -79,13 +78,13 @@
 }
 
 .pagination__link_prev {
-  background-image: url('/img/icons/pagination-prev.png');
+  background-image: url('../../img/icons/pagination-prev.png');
   width: 6px;
   height: 10px;
 }
 
 .pagination__link_next {
-  background-image: url('/img/icons/pagination-next.png');
+  background-image: url('../../img/icons/pagination-next.png');
   width: 6px;
   height: 10px;
 }
