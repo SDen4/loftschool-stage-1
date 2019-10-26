@@ -1,16 +1,16 @@
 .wrapper__intro {
-    display: flex;
-    background: url('/img/intro.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/intro.jpg') center center;
     background-size: cover;
-    max-width: 100%;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 .wrapper__image-frame {
     display: flex;
     background-color: rgba(236, 30, 121, .15);
-    /*#ec1e79*/
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -22,17 +22,35 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
-    animation: logo-animaton 1.2s 1.2s cubic-bezier(1, 0.01, 0.93, 0.76);
+    animation: logo-animaton 1.2s .5s cubic-bezier(1, 0.01, 0.93, 0.76);
     animation-fill-mode: both;
+    margin-top: 5px;
 }
 
 .logoname {
-    width: 161px;
-    /*24%*/
-    height: 119px;
-    /*24%*/
-    margin-bottom: 28px;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.button-enter {
+    padding: 12px 20px;
+    border: 3px solid #ec1e79;
+    background-color: transparent;
+    color: #ec1e79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition-duration: .5s;
+}
+
+.button-enter:hover {
+    color: #ffffff;
+    background-color: #ec1e79;
 }
 
 @keyframes logo-animaton {
@@ -90,26 +108,4 @@
         transform: scale(1, 1) rotate(0deg);
         opacity: 1;
     }
-}
-
-.button-enter {
-    width: 183px;
-    height: 45px;
-    border: 3px solid #ec1e79;
-    background-color: transparent;
-    color: #ec1e79;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-family: "Gotham Pro";
-    font-weight: bold;
-    font-size: 12px;
-    letter-spacing: 1px;
-    transition-duration: .5s;
-}
-
-.button-enter:hover {
-    color: #ffffff;
-    background-color: #ec1e79;
 }

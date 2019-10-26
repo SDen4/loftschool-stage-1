@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   background-color: #27273e;
+  color: #ffffff;
   margin-top: auto;
 }
 
@@ -16,7 +17,6 @@
   width: 265px;
 }
 
-.author__text,
 .author__link {
   color: #ffffff;
   font-family: 'Gotham Pro';
@@ -42,7 +42,6 @@
 
 .social__title {
   font-size: 14px;
-  color: #ffffff;
   font-family: "Gotham Pro";
   font-weight: bold;
   line-height: 27px;
@@ -89,26 +88,31 @@
   content: "";
   display: block;
 }
-.social__pic_vk:after{
+
+.social__pic_vk:after {
   width: 12px;
   height: 7px;
   background: url('../../img/icons/socials-sprites.png') -10px -68px;
 }
+
 .social__pic_fb:after {
   width: 6px;
   height: 13px;
   background: url('../../img/icons/socials-sprites.png') -111px -10px;
 }
-.social__pic_gplus:after{
+
+.social__pic_gplus:after {
   width: 15px;
   height: 9px;
   background: url('../../img/icons/socials-sprites.png') -10px -10px;
 }
+
 .social__pic_twitter:after {
   width: 11px;
   height: 9px;
   background: url('../../img/icons/socials-sprites.png') -80px -10px;
 }
+
 .social__pic_mail:after {
   width: 12px;
   height: 9px;

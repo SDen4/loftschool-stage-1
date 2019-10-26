@@ -10,7 +10,12 @@
 .breadcrumps__item {
   display: inline-flex;
 }
-
+.breadcrumps__item .breadcrumps__link{
+  transition: .5s;
+}
+.breadcrumps__item:hover .breadcrumps__link{
+  color: #4e4c4c;
+}
 .breadcrumps__item:after {
   content: "/";
   display: inline-flex;
