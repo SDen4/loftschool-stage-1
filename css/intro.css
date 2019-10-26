@@ -22,7 +22,7 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    animation: logo-animaton 1.2s .5s cubic-bezier(1, 0.01, 0.93, 0.76);
+    animation: logo-animaton 1.2s .3s cubic-bezier(1, 0.01, 0.93, 0.76);
     animation-fill-mode: both;
     margin-top: 5px;
 }
