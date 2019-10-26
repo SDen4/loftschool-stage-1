@@ -1,8 +1,12 @@
+.container__sendfeedback-block {
+  justify-content: center;
+}
 .sendfeedback {
-  padding: 0 31%;
+  padding: 0 17%; 
   color: #221f1f;
   font-family: "Gotham Pro";
-  margin-bottom: 49px;
+  margin-bottom: 47px;
+  flex: 1;
 }
 
 .headline__send-feedback {

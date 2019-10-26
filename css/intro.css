@@ -23,8 +23,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-    animation-delay: 2s;
-    animation: logo-animaton 1.2s cubic-bezier(1, 0.01, 0.93, 0.76);
+    animation: logo-animaton 1.2s 1.2s cubic-bezier(1, 0.01, 0.93, 0.76);
     animation-fill-mode: both;
 }
 

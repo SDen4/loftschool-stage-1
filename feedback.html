@@ -16,13 +16,13 @@
     <div class="wrapper">
         <header class="header">
             <div class="container header__container">
-                <a href="/" class="logo__link">
-                    <img src="/img/logo.png" class="logo__pic" alt="logo Coworking">
+                <a href="main.html" class="logo__link">
+                    <img src="./img/logo.png" class="logo__pic" alt="logo Coworking">
                 </a>
                 <address class="contacts">
                     <a class="contacts__phone" href="tel:+78000039210">8 (800) 00-392-10</a>
                     <div class="contacts__table">
-                          <a class="contacts__shed" href="/">График работы</a>
+                          <a class="contacts__shed" href="#">График работы</a>
                           <div class="dropdown">
                               <div class="dropdown__text-top">пн-вс: 09:00-20:00</div>
                               <div class="dropdown__text-bottom">обед: 14:00-14:30</div>
@@ -39,13 +39,22 @@
                         <nav class="nav">
                             <ul class="nav__list">
                                 <li class="nav__item">
-                                    <a href="index.html" class="nav__link nav__link_icon_main">ГЛАВНАЯ</a>
+                                    <a href="main.html" class="nav__link">
+                                        <div class="nav__link_icon_main"></div>
+                                        <div class="nav__link-title">ГЛАВНАЯ</div>
+                                    </a>
                                 </li>
                                 <li class="nav__item nav__item_active">
-                                    <a href="feedback.html" class="nav__link nav__link_icon_feedback">ОТЗЫВЫ</a>
+                                    <a href="feedback.html" class="nav__link">
+                                        <div class="nav__link_icon_feedback"></div>
+                                        <div class="nav__link-title">ОТЗЫВЫ</div>
+                                    </a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="price-list.html" class="nav__link nav__link_icon_prices">ТАРИФЫ</a>
+                                    <a href="price-list.html" class="nav__link">
+                                        <div class="nav__link_icon_prices"></div>
+                                        <div class="nav__link-title">ТАРИФЫ</div>
+                                    </a>
                                 </li>
                             </ul>
                         </nav>
@@ -54,7 +63,7 @@
                         <nav class="breadcrumps">
                             <ul class="breadcrumps__list">
                                 <li class="breadcrumps__item">
-                                    <a class="breadcrumps__link" href="index.html">Главная</a>
+                                    <a class="breadcrumps__link" href="main.html">Главная</a>
                                 </li>
                                 <li class="breadcrumps__item breadcrumps__item_active">
                                     <a class="breadcrumps__link" href="">Отзывы</a>
@@ -166,31 +175,31 @@
                                     <div class="pagination__pages">
                                         <ul class="pagination__list">
                                             <li class="pagination__item pagination__item_prev">
-                                                <a href="/" class="pagination__link pagination__link_prev"></a>
+                                                <a href="#" class="pagination__link pagination__link_prev"></a>
                                             </li>
                                             <li class="pagination__item pagination__item_chosen">
-                                                <a href="/" class="pagination__link">1</a>
+                                                <a href="#" class="pagination__link">1</a>
                                             </li>
                                             <li class="pagination__item">
-                                                <a href="/" class="pagination__link">2</a>
+                                                <a href="#" class="pagination__link">2</a>
                                             </li>
                                             <li class="pagination__item">
-                                                <a href="/" class="pagination__link">3</a>
+                                                <a href="#" class="pagination__link">3</a>
                                             </li>
                                             <li class="pagination__item">
-                                                <a href="/" class="pagination__link">4</a>
+                                                <a href="#" class="pagination__link">4</a>
                                             </li>
                                             <li class="pagination__item">
-                                                <a href="/" class="pagination__link">5</a>
+                                                <a href="#" class="pagination__link">5</a>
                                             </li>
                                             <li class="pagination__item">
-                                                <a href="/" class="pagination__link">6</a>
+                                                <a href="#" class="pagination__link">6</a>
                                             </li>
                                             <li class="pagination__item">
-                                                <a href="/" class="pagination__link">7</a>
+                                                <a href="#" class="pagination__link">7</a>
                                             </li>
                                             <li class="pagination__item pagination__item_next">
-                                                <a href="/" class="pagination__link pagination__link_next"></a>
+                                                <a href="#" class="pagination__link pagination__link_next"></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -203,56 +212,58 @@
             <div class="banner-discount">
                 <div class="container banner-discoun__container">
                     <div class="banner-discount__text">Для наших новых клиентов мы предлагаем <a
-                            class="banner-discount__link" href="/">скидку 50%</a> на первый день! Приходите, чтобы
+                            class="banner-discount__link" href="#">скидку 50%</a> на первый день! Приходите, чтобы
                         лично оценить преимущества коворкинга «Воркадиум»!</div>
                 </div>
             </div>
-            <section class="sendfeedback">
-                <div class="sendfeedback__container">
-                    <h2 class="headline headline__send-feedback">Оставить отзыв</h2>
-                    <form action="/" class="form">
-                        <div class="form__content">
-                            <label class="form__data">
-                                <div class="form__subtitle">Ваше имя</div>
-                                <input class="form__input" type="text" name="fist-name" placeholder="Андрей">
-                            </label>
-                            <label class="form__data">
-                                <div class="form__subtitle">Ссылка на профиль VK</div>
-                                <input class="form__input" type="text" name="social"
-                                    placeholder="vk.com/example">
-                            </label>
-                        </div>
-                        <div class="form__content">
-                            <label class="form__data form__text">
-                                <div class="form__subtitle">Текст отзыва</div>
-                                <textarea class="form__input form__input_textarea" rows="5" cols="45" name="form__text"
-                                    placeholder="Мне понравилось"></textarea>
-                            </label>
-                        </div>
-                        <div class="form__content form__submit-buttons">
-                            <div class="form__photo-radio">
-                                <div class="form__subtitle">Отображать фото в отзыве?</div>
-                                <div class="form__radio">
-                                    <label class="form__photo">
-                                        <input class="form__radio-input" name="form__photo" type="radio">
-                                        <span class="form__answer">Да</span>
-                                   </label>
-                                    <label class="form__photo">
-                                        <input class="form__radio-input" name="form__photo" type="radio">
-                                        <span class="form__answer">Нет</span>
+            <div class="container container__sendfeedback-block">
+                <section class="sendfeedback">
+                    <div class="sendfeedback__container">
+                        <h2 class="headline headline__send-feedback">Оставить отзыв</h2>
+                        <form action="/" class="form">
+                            <div class="form__content">
+                                <label class="form__data">
+                                    <div class="form__subtitle">Ваше имя</div>
+                                    <input class="form__input" type="text" name="fist-name" placeholder="Андрей">
+                                </label>
+                                <label class="form__data">
+                                    <div class="form__subtitle">Ссылка на профиль VK</div>
+                                    <input class="form__input" type="text" name="social"
+                                        placeholder="vk.com/example">
+                                </label>
+                            </div>
+                            <div class="form__content">
+                                <label class="form__data form__text">
+                                    <div class="form__subtitle">Текст отзыва</div>
+                                    <textarea class="form__input form__input_textarea" rows="5" cols="45" name="form__text"
+                                        placeholder="Мне понравилось"></textarea>
+                                </label>
+                            </div>
+                            <div class="form__content form__submit-buttons">
+                                <div class="form__photo-radio">
+                                    <div class="form__subtitle">Отображать фото в отзыве?</div>
+                                    <div class="form__radio">
+                                        <label class="form__photo">
+                                            <input class="form__radio-input" name="form__photo" type="radio">
+                                            <span class="form__answer">Да</span>
                                     </label>
+                                        <label class="form__photo">
+                                            <input class="form__radio-input" name="form__photo" type="radio">
+                                            <span class="form__answer">Нет</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form__submit">
+                                    <button class="form__button" type="submit">
+                                        <div class="form__button_name">ОТПРАВИТЬ</div>
+                                    </button>
                                 </div>
                             </div>
-                            <div class="form__submit">
-                                <button class="form__button" type="submit">
-                                    <div class="form__button_name">ОТПРАВИТЬ</div>
-                                </button>
-                            </div>
-                        </div>
-                        
-                    </form>
-                </div>
-            </section>
+                            
+                        </form>
+                    </div>
+                </section>
+            </div>
         </main>
         <footer class="footer">
             <div class="container footer__container">
@@ -264,47 +275,39 @@
                     </div>
                 </div>
                 <div class="container footer-logo__container">
-                    <a href="/" class="">
-                        <!-- logo__link logo__link_footer -->
-                        <img src="/img/logo.png" class="logo__pic" alt="logo Coworking">
+                    <a href="main.html" class="">
+                        <img src="./img/logo.png" class="logo__pic" alt="logo Coworking">
                     </a>
                 </div>
                 <div class="social">
                     <div class="social__title">Наши социальные сети</div>
-                    <div class="social__box">
-                        <ul class="social__list">
-                            <li class="social__item">
-                                <a href="https://vk.com/loftschool" class="solial__link">
-                                    <div class="social__ellipse"></div>
-                                    <img src="./img/icons/footer-vk.png" class="social__pic" alt="pic VK">
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a href="https://www.facebook.com/loftschool/" class="solial__link">
-                                    <div class="social__ellipse"></div>
-                                    <img src="./img/icons/footer-fb.png" class="social__pic" alt="pic Facebook">
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a href="" class="solial__link">
-                                    <div class="social__ellipse"></div>
-                                    <img src="./img/icons/footer-g+.png" class="social__pic" alt="pic Google+">
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a href="https://twitter.com/" class="solial__link">
-                                    <div class="social__ellipse"></div>
-                                    <img src="./img/icons/footer-twitter.png" class="social__pic" alt="pic Twitter">
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a href="mailto:info@loftschool.com" class="solial__link">
-                                    <div class="social__ellipse"></div>
-                                    <img src="./img/icons/footer-mail.png" class="social__pic" alt="pic Mail">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="https://vk.com/loftschool" class="solial__link">
+                                <div class="social__pic social__pic_vk"></div>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://www.facebook.com/loftschool/" class="solial__link">
+                                <div class="social__pic social__pic_fb"></div>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="" class="solial__link">
+                                <div class="social__pic social__pic_gplus"></div>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://twitter.com/" class="solial__link">
+                                <div class="social__pic social__pic_twitter"></div>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="mailto:info@loftschool.com" class="solial__link">
+                                <div class="social__pic social__pic_mail"></div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>
