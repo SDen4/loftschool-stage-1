@@ -1,12 +1,13 @@
 .partners {
   margin-bottom: 40px;
+  border: 1px solid #e8e9ed;
 }
 
 .partners__list {
   max-width: 700px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-left: 16px;
 }
