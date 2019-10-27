@@ -32,6 +32,7 @@
 
 .contacts__table:hover .contacts__shed {
   color: #769dcd;
+  cursor: pointer;
 }
 
 .contacts__table:hover .dropdown {
