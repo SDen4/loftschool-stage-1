@@ -3,8 +3,13 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  width: 30%;
+  width: 25%;
+  margin-left: 6px;
 }
 .side-bar__wrapper {
   margin: 5% 10%;
+}
+
+.side-bar__wrapper_partners {
+  margin: 3% 5%;
 }

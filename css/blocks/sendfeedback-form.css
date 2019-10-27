@@ -2,7 +2,7 @@
   justify-content: center;
 }
 .sendfeedback {
-  padding: 0 17%; 
+  padding: 0% 10% 0% 26%;
   color: #221f1f;
   font-family: "Gotham Pro";
   margin-bottom: 47px;
@@ -16,7 +16,7 @@
 .sendfeedback__container {
   background-color: #f5f5f5;
   border-radius: 3px;
-  padding: 48px 11% 51px;
+  padding: 50px 12.5% 51px 13%;
 }
 
 .form__content {
@@ -87,8 +87,13 @@
 .form__answer {
   position: relative;
   margin-left: 20px;
+  transition-duration: .5s;
 }
 
+.form__answer:hover {
+  color: #ec1e79;
+  cursor: pointer;;
+}
 .form__answer:before {
   position: absolute;
   top: 2px;
@@ -123,8 +128,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 140px;
-  height: 46px;
+  padding: 12% 15%;
   border-radius: 3px;
   background-color: #27273e;
   border: 0px;
@@ -133,10 +137,11 @@
 
 .form__button:hover {
   background-color: #ec1e79;
+  cursor: pointer;
 }
 
 .form__button_name {
-  width: 96px;
+  width: 100%;
   font-size: 12px;
   letter-spacing: 2px;
   color: #ffffff;

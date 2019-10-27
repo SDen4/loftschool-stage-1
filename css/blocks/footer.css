@@ -10,11 +10,12 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 22px 12px 19px;
+  padding: 12px 20px 12px 21px;
 }
 
 .author {
-  width: 265px;
+  width: 280px;
+  letter-spacing: .8px;
 }
 
 .author__link {

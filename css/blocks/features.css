@@ -4,10 +4,10 @@
   justify-content: flex-start;
   align-items: center;
   border: 1px solid #e8e9ed;
-  margin: 5% 10%;
+  margin: 1% 5% 8%;
 }
 .features__wrapper {
-  margin: 5% 10%;
+  margin: 11% 2% 6% 6%;
 }
 .features__main-title {
   font-size: 18px;
@@ -15,8 +15,7 @@
   font-family: "Gotham Pro";
   font-weight: bold;
   text-align: center;
-  letter-spacing: 1px;
-  margin-bottom: 5px;
+  margin-bottom: 31px;
 }
 .features__title {
   font-size: 11px;
@@ -44,7 +43,8 @@
 }
 
 .features__sublist {
-  padding-left: 25px;
+  padding-left: 10%;
+  margin-left: 14%;
 }
 
 .features__unit {

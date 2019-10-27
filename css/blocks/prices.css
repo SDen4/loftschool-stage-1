@@ -1,11 +1,13 @@
 .prices {
   display: flex;
   flex-flow: column wrap;
-  margin-bottom: 6px;
+  margin-bottom: 15px;
+  margin-left: -3px;
 }
 
 .prices__list {
   display: flex;
+  justify-content: space-around;
   flex-flow: row wrap;
 }
 
@@ -16,7 +18,7 @@
   justify-content: flex-start;
   align-items: center;
   margin-right: 0px;
-  margin-bottom: 38px;
+  margin: 26px 0px 26px;
 }
 
 .prices__item:last-child {
@@ -28,12 +30,12 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 251px;
-  height: 154px;
+  width: 274px;
+  height: 167px;
   border-radius: 3px;
   overflow: hidden;
   background-size: cover;
-  margin-bottom: 25px;
+  margin-bottom: 28px;
 }
 
 .prices__image .prices__image-frame {
@@ -42,6 +44,10 @@
 
 .prices__image:hover .prices__image-frame {
   background-color: rgba(39, 39, 62, 0);
+}
+
+.prices__image:hover .prices__name {
+  color: #ec1e79;
 }
 
 .prices__image_one {
@@ -75,8 +81,8 @@
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  width: 251px;
-  height: 154px;
+  width: 274px;
+  height: 167px;
   border-radius: 3px;
   background-color: rgba(39, 39, 62, .85);
 }
@@ -87,6 +93,7 @@
   font-family: "Gotham Pro";
   font-weight: bold;
   text-align: center;
+  transition-duration: .5s;
 }
 
 .prices__name {

@@ -60,14 +60,13 @@ li {
 }
 
 .main-content__container {
-  margin-top: 50px;
   justify-content: center; 
 }
 .main-content__container_feedback {
-  margin-top: 42px;
+  margin-top: 35px;
 }
 .main-content__container_prices {
-  margin-top: 41px;
+  margin-top: 21px;
 }
 
 .headline {
@@ -80,12 +79,12 @@ li {
   justify-content: flex-start;
 }
 .headline_feedback {
-  padding-bottom: 34px;
-  padding-left: 5px;
+  padding-bottom: 36px;
+  padding-left: 2px;
 }
 .headline_prices {
-  padding-left: 10px;
-  padding-bottom:41px;
+  padding-left: 9px;
+  padding-bottom:15px;
   letter-spacing: -1px;
 }
 .headline_partners {
@@ -94,16 +93,22 @@ li {
   font-family: "Gotham Pro";
   font-weight: bold;
   text-align: center;
-  padding-left: 16px;
-  padding-bottom: 38px;
+  padding-left: 2px;
+  padding-bottom: 47px;
+  padding-top: 28px;
 }
 .content {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  width: 70%;
+  width: 74%;
+  padding-left: 12px;
+}
+
+.content_feedback {
   padding-left: 6px;
 }
+
 .content_prices {
   padding-left: 0;
 }

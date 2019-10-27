@@ -1,6 +1,6 @@
 .partners {
-  margin-bottom: 40px;
   border: 1px solid #e8e9ed;
+  margin: 0% 0% 5%;
 }
 
 .partners__list {
@@ -9,21 +9,24 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  margin-left: 16px;
 }
 
 .partners__item {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
-  width: 160px;
+  align-items: center;
+  margin-bottom: 41px;
+  flex: 1;
+  flex-basis: 135px;
 }
 
-.partners__item:nth-child(3n-1) {
-  width: 50%;
+.partners__item:last-child {
+  margin-bottom: 27px;
 }
 
 .partners__pic {
+  max-width: 100%;
   filter: grayscale(100%);
 }
 
@@ -33,4 +36,36 @@
 
 .partners__item:hover .partners__pic {
   filter: none;
+}
+
+/* .partners__link {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    height: 36px;
+    width: 140px;
+} */
+.partners__link [src *= "partners-winter.png"] {
+  height: 37px;
+  width: 140px;
+}
+.partners__link [src *= "partners-tishkin.png"] {
+  height: 52px;
+  width: 140px;
+}
+.partners__link [src *= "partners-drop.png"] {
+  height: 57px;
+  width: 110px;
+}
+.partners__link [src *= "partners-library.png"] {
+  height: 57px;
+  width: 114px;
+}
+.partners__link [src *= "partners-pufok.png"] {
+  height: 57px;
+  width: 120px;
+}
+.partners__link [src *= "partners-avantage.png"] {
+  height: 54px;
+  width: 45px;
 }
