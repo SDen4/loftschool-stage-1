@@ -3,6 +3,17 @@
   margin: 0% 0% 5%;
 }
 
+.headline_partners {
+  font-size: 18px;
+  color: #221f1f;
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  text-align: center;
+  padding-left: 2px;
+  padding-bottom: 47px;
+  padding-top: 28px;
+}
+
 .partners__list {
   max-width: 700px;
   display: flex;
@@ -38,34 +49,32 @@
   filter: none;
 }
 
-/* .partners__link {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    height: 36px;
-    width: 140px;
-} */
-.partners__link [src *= "partners-winter.png"] {
+.partners__link [src *="partners-winter.png"] {
   height: 37px;
   width: 140px;
 }
-.partners__link [src *= "partners-tishkin.png"] {
+
+.partners__link [src *="partners-tishkin.png"] {
   height: 52px;
   width: 140px;
 }
-.partners__link [src *= "partners-drop.png"] {
+
+.partners__link [src *="partners-drop.png"] {
   height: 57px;
   width: 110px;
 }
-.partners__link [src *= "partners-library.png"] {
+
+.partners__link [src *="partners-library.png"] {
   height: 57px;
   width: 114px;
 }
-.partners__link [src *= "partners-pufok.png"] {
+
+.partners__link [src *="partners-pufok.png"] {
   height: 57px;
   width: 120px;
 }
-.partners__link [src *= "partners-avantage.png"] {
+
+.partners__link [src *="partners-avantage.png"] {
   height: 54px;
   width: 45px;
 }

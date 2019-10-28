@@ -1,11 +1,11 @@
 .sidebar {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex-flow: column wrap;
   align-items: center;
   width: 25%;
   margin-left: 6px;
 }
+
 .side-bar__wrapper {
   margin: 5% 10%;
 }

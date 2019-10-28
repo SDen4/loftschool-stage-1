@@ -1,6 +1,7 @@
 .container__sendfeedback-block {
   justify-content: center;
 }
+
 .sendfeedback {
   padding: 0% 10% 0% 26%;
   color: #221f1f;
@@ -46,7 +47,7 @@
   width: 100%;
   border-radius: 3px;
   border: none;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 18px 10px 16px 10px;
   outline: none;
   border: 1px solid transparent;

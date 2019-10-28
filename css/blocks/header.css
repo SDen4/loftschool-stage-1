@@ -56,7 +56,8 @@
   transition-duration: .5s;
 }
 
-.contacts__shed:hover, .contacts__phone:hover {
+.contacts__shed:hover,
+.contacts__phone:hover {
   color: #769dcd;
 }
 
@@ -71,7 +72,7 @@
   width: 163px;
   height: 71px;
   border-radius: 3px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   background-image: linear-gradient(0deg, #ffffff 0%, #ffffff 100%);
   display: flex;
   flex-direction: column;

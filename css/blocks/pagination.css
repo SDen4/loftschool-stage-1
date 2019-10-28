@@ -79,14 +79,15 @@ letter-spacing: .4px;
   color: #ae2264;
 }
 
-.pagination__link_prev {
-  background-image: url('../../img/icons/pagination-prev.png');
+.pagination__link_prev, .pagination__link_next {
   width: 6px;
   height: 10px;
 }
 
+.pagination__link_prev {
+  background-image: url('../../img/icons/pagination-prev.png');
+}
+
 .pagination__link_next {
   background-image: url('../../img/icons/pagination-next.png');
-  width: 6px;
-  height: 10px;
 }
