@@ -1,7 +1,7 @@
 .nav {
   align-self: flex-start;
   padding-top: 7px;
-  padding-left: 20px;
+  padding-left: 28px;
 }
 
 .nav__gorisontal {
@@ -21,12 +21,12 @@
 
 .nav__list {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
 .nav__item {
-  margin-right: 90px;
+  margin-right: 94px;
 }
 
 .nav__item:last-child {
