@@ -108,7 +108,7 @@
 }
 .form__answer:before {
   content: "";
-  background-image: url(../../img/icons/form-feedback-ellipse-2.png);
+  background-image: url('../../img/icons/form-feedback-ellipse-2.png');
   position: absolute;
   top: -6px;
   left: -26px;
@@ -130,7 +130,7 @@
 }
 
 .form__radio-input:checked~.form__answer:before {
-  background-image: url(../../img/icons/form-feedback-ellipse-1.png);
+  background-image: url('../../img/icons/form-feedback-ellipse-1.png');
 }
 
 .form__radio-input:checked~.form__answer:after {
