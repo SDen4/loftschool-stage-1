@@ -1,88 +1,15 @@
 .sidebar {
-  align-items: flex-start;
-  /*flex: 1 1 170px;*/ /*вместо этого - ширина в %*/
-  /*width: 17.68%;*/
-  width: 17%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 25%;
+  margin-left: 6px;
 }
 
-.nav__item {
-  margin: 0px 0px 30px 20px;
-
+.side-bar__wrapper {
+  margin: 5% 10%;
 }
 
-.nav__link:before {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  width: 24px;
-  height: 20px;
-  margin-right: 18px;
-  padding-top: 2px;
-  background: center center / contain no-repeat;
-}
-
-.nav__link {
-  display: block;
-  text-decoration: none;
-  font-size: 12px;
-  letter-spacing: 1px;
-  color: #ec1e79;
-  font-family: "Gotham Pro";
-  font-weight: bold;
-}
-
-.nav__link:hover {
-  color: #221f1f;
-  ;
-}
-
-.nav__item_active .nav__link {
-  color: #000000;
-}
-
-.nav__link_icon_main:before {
-  background-image: url('/img/icons/side-bar-main.png');
-  width: 20px;
-  height: 19px;
-}
-
-.nav__link_icon_feedback:before {
-  background-image: url('/img/icons/side-bar-star.png');
-  width: 20px;
-  height: 18px;
-}
-
-.nav__link_icon_prices:before {
-  background-image: url('/img/icons/side-bar-wallet.png');
-  width: 18px;
-  height: 15px;
-  /*margin-top: -1px;*/
-}
-
-.nav__link_icon_main:hover:before {
-  background-image: url('/img/icons/side-bar-main-hover.png');
-}
-
-.nav__link_icon_feedback:hover:before {
-  background-image: url('/img/icons/side-bar-star-hover.png');
-}
-
-.nav__link_icon_prices:hover:before {
-  background-image: url('/img/icons/side-bar-wallet-hover.png  ');
-}
-
-.nav__item_active .nav__link_icon_main:before {
-  background-image: url('/img/icons/side-bar-main-hover.png');
-}
-
-.nav__item_active .nav__link_icon_feedback:before {
-  background-image: url('/img/icons/side-bar-star-hover.png');
-}
-
-.nav__item_active .nav__link_icon_prices:before {
-  background-image: url('/img/icons/side-bar-wallet-hover.png');
-}
-
-.nav__item_active {
-  text-decoration: underline;
+.side-bar__wrapper_partners {
+  margin: 3% 5%;
 }

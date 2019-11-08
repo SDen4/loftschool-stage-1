@@ -1,11 +1,19 @@
 .prices {
   display: flex;
   flex-flow: column wrap;
-  margin-bottom: 6px;
+  margin-bottom: 15px;
+  margin-left: -3px;
+}
+
+.headline_prices {
+  padding-left: 9px;
+  padding-bottom: 15px;
+  letter-spacing: -1px;
 }
 
 .prices__list {
   display: flex;
+  justify-content: space-around;
   flex-flow: row wrap;
 }
 
@@ -15,51 +23,72 @@
   flex-flow: column wrap;
   justify-content: flex-start;
   align-items: center;
-  margin-right: 24px;
-  margin-bottom: 38px;
+  margin-right: 0px;
+  margin: 26px 0px 26px;
 }
+
 .prices__item:last-child {
   margin-right: 0;
 }
 
 .prices__image {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 251px;
-  height: 154px;
+  width: 274px;
+  height: 167px;
   border-radius: 3px;
   overflow: hidden;
   background-size: cover;
-  margin-bottom: 25px;
+  margin-bottom: 28px;
 }
+
+.prices__image .prices__image-frame {
+  transition-duration: .5s;
+}
+
+.prices__image:hover .prices__image-frame {
+  background-color: rgba(39, 39, 62, 0);
+}
+
+.prices__image:hover .prices__name {
+  color: #ec1e79;
+}
+
 .prices__image_one {
-  background-image: url('/img/price-one.jpg');
-  /*background-color: rgba(39, 39, 62, .85);*/
+  background-image: url('../../img/price-one.jpg');
+  background-size: 109%;
+  background-position: 50% 70%;
 }
+
 .prices__image_three {
-  background-image: url('/img/price-three.jpg');
+  background-image: url('../../img/price-three.jpg');
 }
+
 .prices__image_10-10 {
-  background-image: url('/img/price-10-10.jpg');
+  background-image: url('../../img/price-10-10.jpg');
 }
+
 .prices__image_unlim {
-  background-image: url('/img/price-unlimit-for-one.jpg');
+  background-image: url('../../img/price-unlimit-for-one.jpg');
 }
+
 .prices__image_allincl {
-  background-image: url('/img/price-all-inclusive.jpg');
+  background-image: url('../../img/price-all-inclusive.jpg');
 }
+
 .prices__image_negot {
-  background-image: url('/img/price-negotiations.jpg');
+  background-image: url('../../img/price-negotiations.jpg');
 }
+
 .prices__image-frame {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  width: 251px;
-  height: 154px;
+  width: 274px;
+  height: 167px;
   border-radius: 3px;
   background-color: rgba(39, 39, 62, .85);
 }
@@ -70,6 +99,7 @@
   font-family: "Gotham Pro";
   font-weight: bold;
   text-align: center;
+  transition-duration: .5s;
 }
 
 .prices__name {
@@ -110,10 +140,7 @@
 .prices__text {
   width: 245px;
 }
+
 .prices__text p {
   margin: 0;
-}
-
-.partners__pic {
-  filter: grayscale(100%);
 }

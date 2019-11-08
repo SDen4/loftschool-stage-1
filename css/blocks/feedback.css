@@ -1,9 +1,8 @@
 .feedback {
+  display: flex;
+  flex-flow: column wrap;
   align-items: flex-start;
   justify-content: flex-start;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
 }
 
 .feedback__box {
@@ -12,18 +11,18 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-/*
-.feedback__list {
-  flex-wrap: wrap;
-  align-items: flex-start;
-  flex: 1 1 881px;
-}*/
+
+.headline_feedback {
+  padding-bottom: 36px;
+  padding-left: 2px;
+}
+
 .feedback__list {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-bottom: 35px;
+  margin-bottom: 42px;
 }
 
 .feedback__allitems {
@@ -33,15 +32,6 @@
   flex-direction: column;
 }
 
-/*.feedback__item {
-  width: 881px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  padding-bottom: 20px;
-  margin-bottom: 24px;
-}*/
 .feedback__item {
   display: inline-flex;
   flex-flow: row nowrap;
@@ -61,74 +51,54 @@
   right: 0;
   bottom: 0;
 }
-.feedback__item:last-child{
+
+.feedback__item:last-child {
   margin: 0;
   padding: 0;
 }
+
 .feedback__item:last-child:after {
   display: none;
 }
 
-.feedback__item_withoutphoto .feedback__photo{
+.feedback__item_withoutphoto .feedback__photo {
   width: 161px;
   height: 161px;
-  background: url('/img/logo.png') #f5f5f5 center no-repeat;
+  background: url('../../img/logo.png') #f5f5f5 center no-repeat;
   filter: grayscale(100%);
-  opacity: .7 ;
+  opacity: .7;
+  background-position-y: 40%;
 }
 
-/*
-.feedback__photo {
-  width: 161px;
-  height: 161px;
-  border-radius: 50%;
-  overflow: hidden;
-}*/
 .feedback__photo {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 18%;
-  height: 18%;
+  /* height: 18%; */  /*for firefox*/
   border-radius: 50%;
   overflow: hidden;
   margin: 7px 0px 0px 7px;
 }
-/*
-.feedback__pic {
-  width: 161px;
-  height: 161px;
-  max-width: 100%;
-  max-height: 100%;
-}*/
+
 .feedback__pic {
   display: block;
   max-width: 100%;
   max-height: 100%;
 }
-/*
+
 .feedback__content {
-  width: 685px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  flex-direction: column;
-}*/
-.feedback__content {
-  width: 81%;
+  width: 78%;
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
   justify-content: center;
   margin-left: 19px;
 }
-/*
+
 .feedback__data {
-  padding-bottom: 5px;
-}*/
-.feedback__data {
-  padding: 5px 0px;
+  padding: 4px 0px;
 }
 
 .feedback__username {
@@ -144,6 +114,7 @@
   font-size: 18px;
   letter-spacing: 1px;
 }
+
 .feedback__text p {
   margin: 0;
 }

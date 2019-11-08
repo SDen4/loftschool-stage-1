@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   background-color: #27273e;
+  color: #ffffff;
   margin-top: auto;
 }
 
@@ -9,14 +10,14 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 22px 12px 19px;
+  padding: 12px 20px 12px 21px;
 }
 
 .author {
-  width: 265px;
+  width: 280px;
+  letter-spacing: .8px;
 }
 
-.author__text,
 .author__link {
   color: #ffffff;
   font-family: 'Gotham Pro';
@@ -25,6 +26,11 @@
 
 .author__link {
   font-weight: bold;
+  transition-duration: .5s;
+}
+
+.author__link:hover {
+  color: #ec1e79;
 }
 
 .author__link_student {
@@ -32,43 +38,6 @@
 }
 
 .footer-logo__container {
-  width: 192px;
-}
-
-.social__title {
-  font-size: 14px;
-  color: #ffffff;
-  font-family: "Gotham Pro";
-  font-weight: bold;
-  padding-bottom: 6px;
-}
-
-.social__list {
-  display: inline-flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-}
-
-.social__item {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 21px;
-  border-radius: 50%;
-  margin-right: 10px;
-  background-color: #d4d4d8;
-}
-
-.social__link {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.social__item:hover {
-  background-color: #ec1e79;
-}
-
-.social__pic {
-  margin-top: 6px;
+  width: 99px;
+  margin: 0;
 }
